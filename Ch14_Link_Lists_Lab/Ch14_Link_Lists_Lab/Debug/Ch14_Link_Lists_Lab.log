@@ -1,5 +1,5 @@
 ﻿  14_Perf_Lab_Linked_Lists_NO_BONUS.c
-c:\users\dotlaptop\desktop\myrepos2\links_list_lab\14_perf_lab_linked_lists_header_no_bonus.h(61): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'node *'
-c:\users\dotlaptop\desktop\myrepos2\links_list_lab\14_perf_lab_linked_lists_header_no_bonus.h(69): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'node *'
-c:\users\dotlaptop\desktop\myrepos2\links_list_lab\14_perf_lab_linked_lists_header_no_bonus.h(77): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'node *'
+c:\users\dotlaptop\desktop\myrepos2\links_list_lab\14_perf_lab_linked_lists_header_no_bonus.h(62): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'node *'
+c:\users\dotlaptop\desktop\myrepos2\links_list_lab\14_perf_lab_linked_lists_header_no_bonus.h(70): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'node *'
+c:\users\dotlaptop\desktop\myrepos2\links_list_lab\14_perf_lab_linked_lists_header_no_bonus.h(78): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'node *'
   Ch14_Link_Lists_Lab.vcxproj -> C:\Users\DOTlaptop\Desktop\MyRepos2\Links_List_Lab\Ch14_Link_Lists_Lab\Debug\Ch14_Link_Lists_Lab.exe

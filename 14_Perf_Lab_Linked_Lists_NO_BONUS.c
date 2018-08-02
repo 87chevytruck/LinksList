@@ -177,6 +177,12 @@ int main(void)
 			print_full_list_specific_data(Student01);  //runs print_full_list_specific_data function on Student01, prints all students and specific info via iterration
 			break;
 
+		case 4:
+
+			add_student(Student10);
+
+			break;
+
 		default:
 			break;
 		}
