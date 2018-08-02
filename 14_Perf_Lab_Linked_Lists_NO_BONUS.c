@@ -92,7 +92,7 @@ int main(void)
 	struct StudentInfo Student09 = { "CY", "I believe I can FLY", "Steve Earkle Car", &Student09 };
 	struct StudentInfo Student10 = { "EP", "Justin Bieber", "Barbie Corvette", &Student10 };
 	*/
-
+	int menuInput = 0;
 	int menuSelection = 0;
 	int number = 0;
 	_flushall();
@@ -103,7 +103,9 @@ int main(void)
 	{
 		char tempSelect[10] = { 0 };
 		printMenu();  //prints menu 
-		scanf("%d", &menuSelection);
+		//scanf("%d", &menuSelection);
+		fgets(menuInput, sizeof(menuInput), stdin);
+		menuSelection = atoi(menuInput);
 
 //		fgets(tempSelect, sizeof(tempSelect), stdin);  //gets user's menu selection for below switch/case  *****Didn't allow continuous Switch loop*****
 //		menuSelection = atoi(tempSelect);  //converts temporary string into integer for menuSelection  *****Didn't allow continuous Switch loop*****

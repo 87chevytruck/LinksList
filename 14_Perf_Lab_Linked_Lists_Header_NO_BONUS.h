@@ -24,7 +24,7 @@ typedef struct StudentInfo {
 int printMenu(void)
 {
 	printf("Please choose an option below to display the data you are looking for:  \n");
-	printf("1 - Display full list of student and data \n2 - Display a specific student and that student's full data\n3 - Display a specific student and one specific data entry\n0 - Exit this program\n - Enter a selection from the above menu options. \n\n");
+	printf("1 - Display full list of student and data \n2 - Display a specific student and that student's full data\n3 - Display a specific student and one specific data entry\n4 - Add Student11 to database\n0 - Exit this program\n - Enter a selection from the above menu options. \n\n");
 
 	return 0;
 }
@@ -95,25 +95,30 @@ void add_student(node * n)
 	char car[50] = { 0 };
 	char temp5[50] = { 0 };
 
-	printf("Type student to add:  (i.e. Student11, Student12, etc.)\n");
+//	printf("Type student to add:  (i.e. Student11, Student12, etc.)\n");
 //	scanf("%s", *temp1);
 
 //	node * temp1 = (node*)malloc(sizeof(node));
-	
+//	_flushall();
 
 	printf("Type the initials of the student to add:  (i.e. RRS, JB, TM, SRJ, etc.)\n");
-	scanf("%s", &initials);
-
-
+	//scanf("%s", &initials);
+	fgets(initials, sizeof(initials), stdin);
+	//getchar();
+	//_flushall();
 //	Student11.student_initials = "%s", &initials;
 
 	printf("Type the musical artist for the student to add:  (i.e. The Lonely Island)\n");
-	scanf("%s", &music);
-
-	
+	//scanf("%s", &music);
+	fgets(music,sizeof(music), stdin);
+	//getchar();
+	//_flushall();
 
 	printf("Type the dream car for the student to add:  (i.e. mustang)\n");
-	scanf("%s", &car);
+	//scanf("%s", &car);
+	fgets(car, sizeof(car), stdin);
+	//getchar();
+	//_flushall();
 
 	if (initials && car && music)
 	{
