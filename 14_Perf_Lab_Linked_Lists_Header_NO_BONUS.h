@@ -13,7 +13,7 @@
 typedef struct StudentInfo {
 	
 //	char student_lastName[50];
-	char student_initials[4];			//Each students initals
+	char student_initials[5];			//Each students initals
 	char student_musical_artist[50];	//Each students favoriate musical artist
 	char student_dream_car[50];			//Each studnets dream car
 	struct StudentInfo * next_node;	    //Required data for linked list completion
@@ -90,7 +90,7 @@ void add_student(node * n)
 {
 	node * lastStudent = n;
 //	char temp1[50] = { 0 };
-	char initials[4] = { 0 };
+	char initials[5] = { 0 };
 	char music[50] = { 0 };
 	char car[50] = { 0 };
 	char temp5[50] = { 0 };
@@ -99,26 +99,26 @@ void add_student(node * n)
 //	scanf("%s", *temp1);
 
 //	node * temp1 = (node*)malloc(sizeof(node));
-//	_flushall();
+	_flushall();
 
 	printf("Type the initials of the student to add:  (i.e. RRS, JB, TM, SRJ, etc.)\n");
 	//scanf("%s", &initials);
 	fgets(initials, sizeof(initials), stdin);
 	//getchar();
-	//_flushall();
+	_flushall();
 //	Student11.student_initials = "%s", &initials;
 
 	printf("Type the musical artist for the student to add:  (i.e. The Lonely Island)\n");
 	//scanf("%s", &music);
 	fgets(music,sizeof(music), stdin);
 	//getchar();
-	//_flushall();
+	_flushall();
 
 	printf("Type the dream car for the student to add:  (i.e. mustang)\n");
 	//scanf("%s", &car);
 	fgets(car, sizeof(car), stdin);
 	//getchar();
-	//_flushall();
+	_flushall();
 
 	if (initials && car && music)
 	{
